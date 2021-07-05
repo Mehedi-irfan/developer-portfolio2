@@ -11,9 +11,18 @@ body{
 .middle-section{
     display: flex;
     margin-bottom: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .skill-section{
     display: flex;
+    margin-bottom: 150px;
+}
+.experiance-area{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
     margin-bottom: 150px;
 }
 .half-width{
@@ -75,4 +84,59 @@ body{
     font-weight: 600;
     color: #757474;
     margin-bottom: 50px;
+}
+.experiance-section-h1-text{
+    font-size: 40px;
+    color: #FD6020;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#full-stack{
+    box-shadow: 14px 3px 96px #807d7d;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 6px 18px 30px 45px;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, #FD6020);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#baby-developer{
+    box-shadow: 14px 3px 96px #807d7d;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 6px 18px 30px 45px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.experiance-h4{
+    color: #FD6020;
+    letter-spacing: 0.6px;
+}
+.experiance-p{
+    text-align: justify;
+    color: gray;
+    letter-spacing: 0.6px;
+    margin-bottom: 50px;
+}
+.experiance-button{
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    background-color: #FD6020;
+    padding: 10px 30px;
+    color: #fff;
+    border: 2px solid #fd6020;
+    border-radius: 2px;
+    transition: 0.6s ease-in;
+}
+.experiance-button:hover{
+    background-color: #fff;
+    color: #fd6020;
+    border: 2px solid #FD6020;
 }
