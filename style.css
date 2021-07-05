@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.top-section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.middle-section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.skill-section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.orange-color{
+    color: #FD6020;
+}
+.top-section-h1-text{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.top-section-p-text{
+    text-align: justify;
+    color: gray;
+    letter-spacing: 0.6px;
+    margin-bottom: 40px;
+    padding-right: 80px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #FD6020;
+    color: #ffff;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    border: 2px solid #FD6020;
+    border-radius: 5px;
+    padding: 10px 40px;
+    transition: 0.6s ease-in;
+}
+.link-button:hover{
+    background: #fff;
+    border: 2px solid #FD6020;
+    color: #FD6020;
+}
+.middle-section-h3-section{
+    color: #FD6020;
+}
+#skill-section-h1{
+    margin-left: 100px;
+}
+#skill-section-h4{
+    margin-left: 100px;
+}
+#skill-section-p{
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+#skill-section-button{
+    margin-left: 100px;
+}
+.list{
+    margin-left: 100px;
+    letter-spacing: 1.6px;
+    font-weight: 600;
+    color: #757474;
+    margin-bottom: 50px;
+}
