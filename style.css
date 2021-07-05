@@ -140,3 +140,8 @@ body{
     color: #fd6020;
     border: 2px solid #FD6020;
 }
+.footer-h1{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
